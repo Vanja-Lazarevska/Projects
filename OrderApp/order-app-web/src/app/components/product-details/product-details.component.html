@@ -1,0 +1,25 @@
+
+<mat-card class="background">
+    <mat-card-header>
+        <mat-card-title [innerText]="name ? name : product.name"></mat-card-title>
+        <mat-card-subtitle>{{product.category}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="imageUrl ? imageUrl : product.imageUrl">
+    <mat-card-content [innerText]="description ? description : product.description">
+    </mat-card-content>
+    <mat-card-footer [innerText]="(price ?  price : product.price) | currency">
+    </mat-card-footer>
+    <mat-card-footer [innerText]="inStock ?  inStock :  product.stock">
+    </mat-card-footer>
+</mat-card>
+
+
+
+    
+
+
+
+
+
+
+

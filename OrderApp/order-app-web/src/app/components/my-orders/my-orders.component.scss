@@ -1,0 +1,57 @@
+ h1 {
+    text-align: center;
+    border-bottom: 2px solid #b49286;
+    padding: 3%;
+ }
+
+ .noContent{
+   text-align: center;
+ }
+
+ .mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  border-color: currentColor;
+}
+
+table {
+  background-color: #b49286;
+}
+
+th {
+  font-weight:bolder;
+  font-size: larger;
+}
+
+.total{
+  background-color: #b49286;
+  width:fit-content;
+  font-size: larger;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1%;
+  position: relative;
+  left: 90%;
+  color: white;
+
+}
+
+button {
+  background-color: #b49286;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color:black
+}
+
+
+
+
