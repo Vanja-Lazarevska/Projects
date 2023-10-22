@@ -1,0 +1,156 @@
+#calculator {
+    width: 30vw;
+    height: 60vh;
+    background-color: aqua;
+
+
+    
+}
+#showResult {
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: end;
+}
+
+#mainPart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+
+
+}
+/* zasto kd stavu background color na buttons mi iskoci kako da ne moze da se klikne uopste */
+#btnC {
+    flex-basis: 50%;
+    height: 80px;
+    font-weight: bold;
+    background-color: gainsboro;
+}
+
+#btnDiv{
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: orange;
+    color:white;
+
+}
+
+#btnDel {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btn7 {
+    flex-basis: 25%;
+    height: 80px;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btn8 {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btn9 {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btnMult {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: orange;
+    color:white
+}
+
+#btn4 {
+    flex-basis: 25%;
+    height: 80px;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btn5 {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btn6 {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btnSub{
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: orange;
+    color:white
+}
+
+#btn1 {
+    flex-basis: 25%;
+    height: 80px;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btn2 {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btn3 {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btnSum {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: orange;
+    color:white;
+}
+
+#btnDec {
+    flex-basis: 25%;
+    height: 80px;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btn0 {
+    flex-basis: 50%;
+    font-weight: bold;
+    background-color: gainsboro;
+
+}
+
+#btnEqual {
+    flex-basis: 25%;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+}
